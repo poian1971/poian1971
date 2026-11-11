@@ -8,10 +8,9 @@
 </a>
 <br>
 <br>
-### GitHub Stats & Linguagens Mais Usadas
+### Gráfico de Linguagens
 
-[![Estatísticas do GitHub](https://github-stats-extended.vercel.app/api?username=avp1971&show_icons=true&theme=radical)](https://github.com/stats-organization/github-stats-extended)
+[![Profile Summary Card](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=avp1971&theme=radical)](https://github.com/vn7n2457/github-profile-summary-cards)
 
-[![Linguagens Mais Usadas](https://github-stats-extended.vercel.app/api/top-langs/?username=avp1971&theme=radical)](https://github.com/stats-organization/github-stats-extended)
-
+[![Linguagens](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=avp1971&theme=radical)](https://github.com/vn7n2457/github-profile-summary-cards)
 
