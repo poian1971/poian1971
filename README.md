@@ -8,26 +8,10 @@
 </a>
 <br>
 <br>
-name: Generate GitHub Stats
+### GitHub Stats & Linguagens Mais Usadas
 
-on:
-  schedule:
-    - cron: '0 0 * * *' # Atualiza diariamente à meia-noite
-  workflow_dispatch:
+[![Estatísticas do GitHub](https://github-stats-extended.vercel.app/api?username=avp1971&show_icons=true&theme=radical)](https://github.com/stats-organization/github-stats-extended)
 
-jobs:
-  publish:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: avp1971
-          template: classic
-          base: header, activity, community, repositories, metadata
-          plugin_languages: yes
-          plugin_languages_details: percentage, bytes-size
-          plugin_languages_limit: 8
+[![Linguagens Mais Usadas](https://github-stats-extended.vercel.app/api/top-langs/?username=avp1971&theme=radical)](https://github.com/stats-organization/github-stats-extended)
 
 
