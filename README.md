@@ -8,11 +8,26 @@
 </a>
 <br>
 <br>
-### Languages and Tools:
+name: Generate GitHub Stats
 
----
+on:
+  schedule:
+    - cron: '0 0 * * *' # Atualiza diariamente à meia-noite
+  workflow_dispatch:
 
-### GitHub Stats
-
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: avp1971
+          template: classic
+          base: header, activity, community, repositories, metadata
+          plugin_languages: yes
+          plugin_languages_details: percentage, bytes-size
+          plugin_languages_limit: 8
 
 
