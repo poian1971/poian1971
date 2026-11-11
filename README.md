@@ -10,7 +10,7 @@
 <br>
 <h2> Gráfico de Linguagens </h2>
 
-[![poian1971 stats](https://github-stats-extended.vercel.app/api?poian1971=anuraghazra)](https://github.com/stats-organization/github-stats-extended)
+[![poian1971 stats](https://github-stats-extended.vercel.app/api?username=poian1971)](https://github.com/stats-organization/github-stats-extended)
 
 [![Linguagens](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=avp1971&theme=radical)](https://github.com/vn7n2457/github-profile-summary-cards)
 
